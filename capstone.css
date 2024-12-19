@@ -1,0 +1,329 @@
+    @font-face {
+    font-family: "dot";
+    src: url(DotGothic16/DotGothic16-Regular.ttf);
+    }
+    @font-face {
+        font-family: "archio";
+        src: url(Archivo/Archivo-VariableFont_wdth\,wght.ttf);
+    }
+    body{
+        background-color: #F2F6F5;
+        padding:0 48px;
+    }
+    .header{
+        margin-top: 0px;
+        padding: 0px 10px;
+    }
+    .main{
+        padding: 96px 0px;
+    }
+    .logo{
+        flex:1;
+        color:black;
+        font-size: 40px;
+        display: inline-block;
+        font-family: Abyssinica SIL;
+        font-size: 52px;
+        font-weight: 400;
+        line-height: 42px;
+        letter-spacing: -0.04em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+    .nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 20px;
+    }
+    .links{
+        gap:20px;
+        display: flex;
+        width: Hug (501px)px;
+        height: Hug (32px)px;
+        gap: 32px;
+        opacity: 0px;
+
+    }
+    .links a{
+        color:black;
+        text-decoration: none;
+        font-size:32px;
+        font-family: BIZ UDPMincho;
+        font-size: 28px;
+        font-weight: 400;width: 83px;
+        height: 32px;
+        gap: 0px;
+        opacity: 0px;
+        line-height: 32px;
+        letter-spacing: -0.01em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+
+         
+    }
+    .divider{
+        /* border-top:2px  #000000;
+        padding-top: 0px;
+        margin-top: 10px;
+        width: 100%; */
+        border: 1px solid #000000;
+    }
+    .welcome{
+        /* font-family: 'dot';
+        font-weight: 400px;
+        font-size: 8vw;
+        text-align: center;
+        justify-content: center;
+        letter-spacing: -2%;
+        line-height: 52px; */
+        font-family: BIZ UDPMincho;
+        font-size: 170px;
+        font-weight: 400;
+        line-height: 52px;
+        letter-spacing: -0.01em;
+        text-align: center;
+        justify-content: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;   
+        width: 1344px;
+        height: 120px;
+        gap: 0px;
+        opacity: 0px;
+    }
+    h3{
+        /* text-align: center;
+        justify-content: center; */
+        font-family: BIZ UDPMincho;
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 52px;
+        letter-spacing: -0.01em;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color:#000000;
+
+
+    }
+    .big-img{
+        width: 1344px;
+        height: 672px;
+        gap: 0px;
+        border-radius: 22px;
+        border: 1px 0px 0px 0px;
+        opacity: 0px;
+    }
+
+    .images {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 8px;
+        width: 100%;
+        row-gap: 48px;
+        margin: 25px;
+        
+
+    }
+    .image-desc{
+                font-size: 0.9em;
+                color:#00000099;
+                ;
+            }
+.container {
+            /* max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            margin:20px; */
+            width: Fill (1,344px)px;
+            height: Hug (436px)px;
+            padding: 48px 0px 48px 0px;
+            gap: 48px;
+            border: 0px 0px 1px 0px;
+            opacity: 0px;
+        }
+
+        h1 {
+            /* text-align: center;
+            font-size: 2em;
+            margin-bottom: 30px;
+            color: #555; */
+            font-family: BIZ UDPMincho;
+            font-size: 48px;
+            font-weight: 400;
+            line-height: 52px;
+            letter-spacing: -0.01em;
+            text-align: center;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            width: 1260px;
+            height: 52px;
+            max-width: 1260px;
+            gap: 0px;
+            opacity: 0px;
+        }
+
+        .testimonials {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .testimonial {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            flex: 1;
+            min-width: 220px;
+            max-width: 280px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .testimonial img {
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+
+        .testimonial h3 {
+            font-size: 1.1em;
+            margin-bottom: 5px;
+            color: #333;
+        }
+
+        .testimonial p {
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        .content{
+            width: 180px;
+            height: 96px;
+            font-family: Gothic A1;
+            text-align: left;
+            padding: 10px 
+        }
+
+       
+
+    .contact-container {
+        /* max-width: 800px;
+        margin: 50px auto;
+        padding: 20px;
+        background: #fff;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+        width: Fill (1,344px)px;
+        height: Hug (312px)px;
+        padding: 48px 0px 48px 0px;
+        gap: 24px;
+        border: 0px 0px 1px 0px;
+        opacity: 0px;
+
+    }
+
+    .contact-container h2 {
+        text-align: left;
+        /* font-size: 1.8em;
+        margin-bottom: 20px;
+        color: #555; */
+        font-family: BIZ UDPMincho;
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: -0.01em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color:#000000;
+
+
+    }
+
+    .contact-grid {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 20px;
+        width: Fill (900px)px;
+        height: Fixed (160px)px;
+        max-width: 900px;
+        gap: 48px;
+        opacity: 0px;
+    }
+
+    .contact-column {
+        /* flex: 1;
+        min-width: 150px; */
+        width: Fill (268px)px;
+        height: Hug (140px)px;
+        gap: 0px;
+        opacity: 0px;
+        
+    }
+
+    .contact-column h3 {
+        /* font-size: 1em;
+        margin-bottom: 10px;
+        color: #333; */
+        font-family: Gothic A1;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+
+    }
+
+    .contact-column p {
+        /* font-size: 0.9em;
+        margin: 5px 0;
+        color: #666; */
+        font-family: Gothic A1;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #00000099;
+    }
+    hr {
+            border: none;
+            border-top: 1px solid #ccc;
+            margin: 0;
+            border: 1px solid #000000;
+            width: 1536px;
+            height: 0px;
+            gap: 0px;
+            border: 1px 0px 0px 0px;
+            opacity: 0px;
+
+        }
+
+        .line{
+            width: 0px;
+            height: 96px;
+            gap: 0px;
+            border-radius: 1px 0px 0px 0px;
+            border: 1px 0px 0px 0px;
+            opacity: 0px;
+            border: 1px solid #000000;
+        }
+        @media screen and (max-width:760px){
+            .header{
+                display: flex;
+                align-items: flex-start;
+
+
+            }
+        }
+         
